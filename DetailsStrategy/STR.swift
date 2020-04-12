@@ -7,3 +7,25 @@
 //
 
 import Foundation
+
+import UIKit
+
+public protocol STR: class {
+    var title: String { get }
+    var name: String { get}
+    func getDetailsUrlRequest() -> String
+    var type: TypeOfModel {get}
+}
+
+
+public enum TypeOfDetailsModel {
+    case buttonA(_ details: String?)
+    case buttonB(_ details: String?)
+}
+
+
+
+public enum TypeOfModel: String {
+    case buttonA
+    case buttonB
+}

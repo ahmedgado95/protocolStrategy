@@ -9,11 +9,15 @@
 import UIKit
 
 class ShowtitleVC: UIViewController {
+    var detailsStrategy: STR!
 
+    @IBOutlet weak var nameLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        title = detailsStrategy.title
+        getDate(url: detailsStrategy.getDetailsUrlRequest())
     }
     
 
@@ -26,5 +30,10 @@ class ShowtitleVC: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func getDate(url : String)  {
+        print(url)
+        nameLabel.text = "\( detailsStrategy.name) \(url)"
+    }
 
 }

@@ -13,6 +13,10 @@
 		F89F43E924434EF9009CB408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89F43E724434EF9009CB408 /* Main.storyboard */; };
 		F89F43EB24434F01009CB408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89F43EA24434F01009CB408 /* Assets.xcassets */; };
 		F89F43EE24434F01009CB408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89F43EC24434F01009CB408 /* LaunchScreen.storyboard */; };
+		F89F43F624434FE0009CB408 /* STR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F43F524434FE0009CB408 /* STR.swift */; };
+		F89F43F8244350A1009CB408 /* ShowtitleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F43F7244350A1009CB408 /* ShowtitleVC.swift */; };
+		F89F43FA244352BA009CB408 /* ButtonADetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F43F9244352BA009CB408 /* ButtonADetails.swift */; };
+		F89F43FC244352CB009CB408 /* ButtonBDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F43FB244352CB009CB408 /* ButtonBDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		F89F43EA24434F01009CB408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F89F43ED24434F01009CB408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F89F43EF24434F01009CB408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89F43F524434FE0009CB408 /* STR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STR.swift; sourceTree = "<group>"; };
+		F89F43F7244350A1009CB408 /* ShowtitleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowtitleVC.swift; sourceTree = "<group>"; };
+		F89F43F9244352BA009CB408 /* ButtonADetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonADetails.swift; sourceTree = "<group>"; };
+		F89F43FB244352CB009CB408 /* ButtonBDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				F89F43EA24434F01009CB408 /* Assets.xcassets */,
 				F89F43EC24434F01009CB408 /* LaunchScreen.storyboard */,
 				F89F43EF24434F01009CB408 /* Info.plist */,
+				F89F43F524434FE0009CB408 /* STR.swift */,
+				F89F43F9244352BA009CB408 /* ButtonADetails.swift */,
+				F89F43FB244352CB009CB408 /* ButtonBDetails.swift */,
+				F89F43F7244350A1009CB408 /* ShowtitleVC.swift */,
 			);
 			path = DetailsStrategy;
 			sourceTree = "<group>";
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F89F43E624434EF9009CB408 /* ViewController.swift in Sources */,
+				F89F43F624434FE0009CB408 /* STR.swift in Sources */,
+				F89F43FA244352BA009CB408 /* ButtonADetails.swift in Sources */,
 				F89F43E224434EF9009CB408 /* AppDelegate.swift in Sources */,
+				F89F43F8244350A1009CB408 /* ShowtitleVC.swift in Sources */,
 				F89F43E424434EF9009CB408 /* SceneDelegate.swift in Sources */,
+				F89F43FC244352CB009CB408 /* ButtonBDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

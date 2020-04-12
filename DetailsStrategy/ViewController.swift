@@ -14,7 +14,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    @IBAction func buttonAPressed(_ sender: Any) {
+        let vc = storyboard?.instantiateViewController(identifier: "ShowtitleVC") as! ShowtitleVC
+        vc.detailsStrategy = ButtonADetails(itemId: 0, itemDetails: .buttonA(nil))
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @IBAction func buttonBPressed(_ sender: Any) {
+        let vc = storyboard?.instantiateViewController(identifier: "ShowtitleVC") as! ShowtitleVC
+              vc.detailsStrategy = ButtonBDetails(itemId: 0, itemDetails: .buttonB(nil))
+              navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
 
